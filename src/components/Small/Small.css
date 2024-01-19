@@ -1,0 +1,24 @@
+.head_para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  & p {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .head_para {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    & p {
+      margin-top: 2px;
+      width: 31%;
+    }
+  }
+}

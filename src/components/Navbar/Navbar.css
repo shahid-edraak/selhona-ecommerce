@@ -1,0 +1,167 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 1.5rem;
+}
+.img_logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 10px;
+}
+.img_logo img {
+  height: 20px;
+  padding-bottom: 4px;
+}
+.img_logo h2 {
+  font-family: auto;
+  font-size: 14px;
+  font-weight: 900;
+  color: black;
+}
+.menu_class {
+  display: flex;
+}
+
+.navbar-content img {
+  padding-left: 10px;
+  max-width: 8%;
+}
+.navbar-content {
+  display: none;
+}
+
+.mobile_menu {
+  position: relative;
+}
+.mobile_menu_div {
+  position: absolute;
+  display: flex;
+}
+.mobile_menu_div ul {
+  display: flex;
+  z-index: 10;
+  gap: 10px;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-left: -4rem;
+  margin-top: -1.5rem;
+  background-color: floralwhite;
+}
+.Navbar_links {
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  .menu_class {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 4.5rem;
+  }
+  .img_logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+  }
+  .img_logo img {
+    height: 30px;
+    padding-bottom: 4px;
+  }
+  .img_logo h2 {
+    font-family: auto;
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+  }
+  .navbar-content {
+    display: flex;
+
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 500;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 15px;
+  }
+  ul li {
+    cursor: pointer;
+    color: black;
+  }
+  .navbar-content img {
+    padding-left: 10px;
+    max-width: 8%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .menu_class {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    color: white;
+  }
+  .img_logo {
+    display: flex;
+
+    gap: 4px;
+    padding-bottom: 5px;
+  }
+  .img_logo img {
+    height: 40px;
+    padding-bottom: 3px;
+  }
+  .img_logo h2 {
+    font-size: 28px;
+    font-family: auto;
+    color: black;
+  }
+
+  .navbar-content {
+    display: flex;
+
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    background-color: white;
+  }
+
+  .navbar-content ul {
+    list-style: none;
+    margin: 0;
+
+    gap: 35px;
+    display: flex;
+  }
+
+  ul li {
+    cursor: pointer;
+    color: black;
+  }
+
+  .navbar-content img {
+    height: 18px;
+
+    margin-left: 20px;
+  }
+}

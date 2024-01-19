@@ -1,0 +1,126 @@
+.header_design {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+  & img {
+    max-width: 90%;
+  }
+}
+.header_heading {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  left: 4%;
+}
+.header_heading h1 {
+  width: 210px;
+
+  font-family: initial;
+  font-size: 20px;
+  color: white;
+}
+.header_heading p {
+  width: 80%;
+  font-size: 16px;
+  color: white;
+  align-items: center;
+}
+
+.header_heading button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: #cda274;
+  width: 180px;
+  height: 40px;
+  gap: 12px;
+  border-radius: 18px;
+
+  border: #cda274;
+}
+.header_heading button img {
+  width: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .header_heading {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    top: 20%;
+  }
+  .header_heading h1 {
+    width: 80%;
+
+    font-family: initial;
+    font-size: 30px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header_design {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    & img {
+      max-width: 100%;
+    }
+  }
+  .header_heading h1 {
+    width: 404px;
+    height: 62px;
+    font-family: initial;
+    font-size: 36px;
+    color: white;
+  }
+  .header_heading {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    top: 20%;
+    left: 8%;
+  }
+  .header_heading h1 {
+    width: 404px;
+    height: 62px;
+    font-family: initial;
+    font-size: 36px;
+    color: white;
+  }
+  .header_heading p {
+    width: 328px;
+    height: 46px;
+    color: white;
+    align-items: center;
+  }
+
+  .header_heading button {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #cda274;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+
+    border: #cda274;
+  }
+  .header_heading button img {
+    max-width: 24px;
+  }
+}

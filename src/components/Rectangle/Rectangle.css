@@ -1,0 +1,82 @@
+.rectangle_parent {
+  display: flex;
+
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.rectangle_parent img {
+  display: flex;
+  max-width: 90%;
+  height: 220px;
+}
+
+.rectangle_child {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  top: 10%;
+  & h1 {
+    font-size: 22px;
+  }
+  & p {
+    width: 70%;
+  }
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #cda274;
+
+    width: 46%;
+
+    height: 45px;
+    border-radius: 15px;
+    border: #cda274;
+  }
+  & button img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .rectangle_parent {
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+  }
+  .rectangle_parent img {
+    display: flex;
+    max-width: auto;
+    height: auto;
+  }
+  .rectangle_child {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    position: absolute;
+    align-items: center;
+    color: white;
+    top: 32%;
+    & button {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: white;
+      background-color: #cda274;
+
+      width: 50%;
+
+      height: 45px;
+      border-radius: 10px;
+      border: #cda274;
+    }
+  }
+}

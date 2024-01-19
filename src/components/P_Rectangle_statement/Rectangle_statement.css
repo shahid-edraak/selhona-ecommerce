@@ -1,0 +1,111 @@
+.Rectangle_statement_parent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.Rectangle_statement {
+  display: flex;
+
+  flex-direction: column;
+  left: 5%;
+
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  & p {
+    width: 90%;
+  }
+  & h1 {
+    font-size: large;
+  }
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #292f36;
+
+    width: 36%;
+
+    height: 45px;
+    border-radius: 15px;
+    border: #292f36;
+  }
+  & button img {
+    width: auto;
+    height: auto;
+  }
+}
+.Rectangle_img {
+  display: flex;
+  margin-top: 2rem;
+
+  justify-content: center;
+}
+
+& img {
+  max-width: 80%;
+}
+@media only screen and (min-width: 768px) {
+  .Rectangle_statement button {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .Rectangle_statement_parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  .Rectangle_statement {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 2rem;
+    left: 8%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+
+    & h1 {
+      font-size: x-large;
+    }
+    & p {
+      width: 57%;
+    }
+    & button {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: white;
+      background-color: #292f36;
+
+      width: 25%;
+
+      height: 45px;
+      border-radius: 15px;
+      border: #292f36;
+    }
+    & button img {
+      width: auto;
+      height: auto;
+    }
+  }
+  .Rectangle_img {
+    max-width: 50%;
+    left: 16%;
+    position: relative;
+  }
+
+  & img {
+    max-width: 60%;
+  }
+}

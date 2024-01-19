@@ -1,0 +1,44 @@
+.num_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  gap: 20px;
+  & h1 {
+    color: #cda274;
+  }
+}
+.num_child {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #cda274;
+}
+
+@media only screen and (min-width: 1280px) {
+  .num_parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 40px;
+    & h1 {
+      color: #cda274;
+    }
+  }
+
+  .line {
+    width: 2px;
+    height: 60px;
+    background-color: #cda274;
+  }
+}
