@@ -1,0 +1,27 @@
+.s_small_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  & p {
+    width: 77%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .s_small_parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    & p {
+      width: 36%;
+    }
+  }
+}

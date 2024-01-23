@@ -32,9 +32,12 @@
 .navbar-content {
   display: none;
 }
-
+.Navbar_links {
+  color: rgb(31, 28, 28);
+}
 .mobile_menu {
   position: relative;
+  max-width: 30%;
 }
 .mobile_menu_div {
   position: absolute;
@@ -42,15 +45,18 @@
 }
 .mobile_menu_div ul {
   display: flex;
+
   z-index: 10;
   gap: 10px;
   font-weight: 600;
   flex-direction: column;
   align-items: center;
   list-style: none;
-  margin-left: -4rem;
+  margin-left: -8rem;
   margin-top: -1.5rem;
-  background-color: floralwhite;
+  background-color: #ffffff;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .Navbar_links {
   text-decoration: none;

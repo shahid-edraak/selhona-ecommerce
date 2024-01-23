@@ -3,7 +3,7 @@
 
   margin-top: 5rem;
   margin-bottom: 15px;
-  max-width: 50%;
+  max-width: 90%;
   justify-content: center;
   margin-inline: auto;
   border-left: 2px solid black;
@@ -39,8 +39,10 @@
 @media only screen and (min-width: 1280px) {
   .statement_parent {
     display: flex;
-
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     margin-top: 15px;
+    max-width: 30%;
     margin-bottom: 15px;
 
     justify-content: center;
@@ -53,7 +55,6 @@
     justify-content: center;
 
     & h4 {
-      max-width: 50%;
       font-size: large;
     }
   }

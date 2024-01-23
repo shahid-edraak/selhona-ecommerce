@@ -77,28 +77,37 @@
   .img_right {
     display: flex;
     justify-content: end;
+    margin-left: 11rem;
   }
   .img_right img {
-    width: 10%;
+    width: 40%;
   }
   .top_left {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .top_right {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .bottom_left {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .bottom_right {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }

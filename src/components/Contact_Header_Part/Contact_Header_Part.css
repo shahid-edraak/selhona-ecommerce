@@ -1,0 +1,215 @@
+.contact_header_part_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+  gap: 30px;
+  & h1 {
+    font-size: 20px;
+    max-width: 76%;
+  }
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #292f36;
+    width: 32%;
+    height: 45px;
+    border-radius: 15px;
+    border: #292f36;
+  }
+}
+.contact_header_child_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact_header_child_part_one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 50px;
+}
+.c_header_child_left_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c_header_child_right_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contact_header_child_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 50px;
+  margin-top: 10rem;
+  margin-left: 12.4rem;
+}
+.contact_header_child_part_two {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  gap: 26px;
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+}
+.c_header_child_input_one {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.c_h_child_para_one {
+  border-bottom: 1px solid black;
+  & p {
+    margin-right: 5.5rem;
+  }
+}
+.c_h_child_para_two {
+  border-bottom: 1px solid black;
+  & p {
+    margin-right: 5.5rem;
+  }
+}
+.c_header_child_input_two {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.c_h_child_input_one {
+  border-bottom: 1px solid black;
+  & p {
+    margin-right: 5rem;
+  }
+}
+.c_h_child_input_two {
+  border-bottom: 1px solid black;
+  & p {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact_header_part_parent button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #292f36;
+    width: 15%;
+    height: 45px;
+    border-radius: 15px;
+    border: #292f36;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact_header_part_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 3rem 0;
+  }
+  .contact_header_child_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+  }
+  .contact_header_child_part_one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .c_header_child_left_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .c_header_child_right_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact_header_child_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 50px;
+    margin-top: 8rem;
+    margin-left: 12rem;
+  }
+  .contact_header_child_part_two {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    gap: 26px;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+  }
+  .c_header_child_input_one {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .c_h_child_para_one {
+    border-bottom: 1px solid black;
+    & p {
+      margin-right: 12.5rem;
+    }
+  }
+  .c_h_child_para_two {
+    border-bottom: 1px solid black;
+    & p {
+      margin-right: 12.5rem;
+    }
+  }
+  .c_header_child_input_two {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .c_h_child_input_one {
+    border-bottom: 1px solid black;
+    & p {
+      margin-right: 12rem;
+    }
+  }
+  .c_h_child_input_two {
+    border-bottom: 1px solid black;
+    & p {
+      margin-right: 12rem;
+    }
+  }
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #292f36;
+    width: 10%;
+    height: 45px;
+    border-radius: 15px;
+    border: #292f36;
+  }
+}

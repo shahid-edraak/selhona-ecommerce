@@ -1,0 +1,248 @@
+.services_design_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin-bottom: 4rem;
+  gap: 40px;
+}
+.services_design_part_one {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+/* .services_design_part_one img {
+  max-width: 42%;
+} */
+.services_design_subpart_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  & h1 {
+    font-size: 36px;
+    color: #c76904;
+  }
+}
+.services_design_child_one {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.services_design_part_two {
+  display: flex;
+
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.services_design_subpart_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  & h1 {
+    font-size: 36px;
+    color: #c76904;
+  }
+}
+
+/* .services_design_part_two img {
+  max-width: 42%;
+} */
+.services_design_child_two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.services_design_part_three {
+  display: flex;
+
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.services_design_subpart_three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  & h1 {
+    font-size: 36px;
+    color: #c76904;
+  }
+}
+/* .services_design_part_three img {
+  max-width: 42%;
+} */
+.services_design_child_three {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & h1 {
+    font-size: 36px;
+    color: #c76904;
+  }
+}
+
+.services_design_part_foure {
+  display: flex;
+
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.services_design_subpart_foure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  & h1 {
+    font-size: 36px;
+    color: #c76904;
+  }
+}
+/* .services_design_part_foure img {
+  max-width: 42%;
+} */
+.services_design_child_foure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .services_design_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    gap: 80px;
+    margin-inline: 12rem;
+    margin-bottom: 4rem;
+  }
+  .services_design_part_one {
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .services_design_part_one img {
+    max-width: 42%;
+  }
+  .services_design_subpart_one {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+    margin-left: 6rem;
+    & h1 {
+      font-size: 36px;
+      color: #c76904;
+    }
+  }
+  .services_design_child_one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services_design_part_two {
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .services_design_subpart_two {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+
+    & h1 {
+      font-size: 36px;
+      color: #c76904;
+    }
+  }
+  .services_design_part_two img {
+    max-width: 42%;
+  }
+  .services_design_child_two {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services_design_part_three {
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .services_design_subpart_three {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+    margin-left: 6rem;
+    & h1 {
+      font-size: 36px;
+      color: #c76904;
+    }
+  }
+  .services_design_part_three img {
+    max-width: 42%;
+  }
+  .services_design_child_three {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & h1 {
+      font-size: 36px;
+      color: #c76904;
+    }
+  }
+
+  .services_design_part_foure {
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .services_design_subpart_foure {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+
+    & h1 {
+      font-size: 36px;
+      color: #c76904;
+    }
+  }
+  .services_design_part_foure img {
+    max-width: 42%;
+  }
+  .services_design_child_foure {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
