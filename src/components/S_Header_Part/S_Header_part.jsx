@@ -6,7 +6,7 @@ function S_Header_part() {
     <div className="s_header_part">
       <img src={Rectabgle_20} alt="" />
       <div className="s_header_heading">
-        <h2>Services</h2>
+        <h2>Single Services</h2>
       </div>
     </div>
   );

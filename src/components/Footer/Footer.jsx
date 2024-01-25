@@ -25,36 +25,36 @@ function Footer() {
           <img src={instagrame} alt="" />
         </div>
       </div>
-      <div className="footer_part_two">
-        <h2>Pages</h2>
-        <ul>
-          <li>About Us </li>
-          <li>Our Projects </li>
-          <li>Our Team </li>
-          <li>Contact Us</li>
-          <li> Services</li>
-        </ul>
-      </div>
-
-      <div className="footer_part_three">
-        <h2>Services</h2>
-        <ul>
-          <li> Kitchan</li>
-          <li> Living Area </li>
-          <li> Bathroom </li>
-          <li>Dinning Hall</li>
-          <li>Bedroom</li>
-        </ul>
-      </div>
-
-      <div className="footer_part_foure">
-        <h2>Contact</h2>
-        <ul>
-          <li>55 East Birchwood Ave.</li>
-          <li>Brooklyn, New York 11201 </li>
-          <li>contact@selhono.com</li>
-          <li>(123) 456 - 7890</li>
-        </ul>
+      <div className=" footer_child">
+        <div className="footer_part_two">
+          <h2>Pages</h2>
+          <ul>
+            <li>About Us </li>
+            <li>Our Projects </li>
+            <li>Our Team </li>
+            <li>Contact Us</li>
+            <li> Services</li>
+          </ul>
+        </div>
+        <div className="footer_part_three">
+          <h2>Services</h2>
+          <ul>
+            <li> Kitchan</li>
+            <li> Living Area </li>
+            <li> Bathroom </li>
+            <li>Dinning Hall</li>
+            <li>Bedroom</li>
+          </ul>
+        </div>
+        <div className="footer_part_foure">
+          <h2>Contact</h2>
+          <ul>
+            <li>55 East Birchwood Ave.</li>
+            <li>Brooklyn, New York 11201 </li>
+            <li>contact@selhono.com</li>
+            <li>(123) 456 - 7890</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -6,8 +6,8 @@
   margin: 3rem 0 3rem 0;
   gap: 30px;
   & h1 {
-    font-size: 20px;
-    max-width: 76%;
+    font-size: 18px;
+    max-width: 48%;
   }
   & button {
     display: flex;
@@ -20,6 +20,10 @@
     border-radius: 15px;
     border: #292f36;
   }
+}
+input {
+  border: none;
+  outline: none; /* Removes the default focus border */
 }
 .contact_header_child_part {
   display: flex;
@@ -72,14 +76,14 @@
 }
 .c_h_child_para_one {
   border-bottom: 1px solid black;
-  & p {
-    margin-right: 5.5rem;
+  & input {
+    margin-right: 3.5rem;
   }
 }
 .c_h_child_para_two {
   border-bottom: 1px solid black;
-  & p {
-    margin-right: 5.5rem;
+  & input {
+    margin-right: 3.5rem;
   }
 }
 .c_header_child_input_two {
@@ -89,14 +93,14 @@
 }
 .c_h_child_input_one {
   border-bottom: 1px solid black;
-  & p {
-    margin-right: 5rem;
+  & input {
+    margin-right: 3.5rem;
   }
 }
 .c_h_child_input_two {
   border-bottom: 1px solid black;
-  & p {
-    margin-right: 5rem;
+  & input {
+    margin-right: 3.5rem;
   }
 }
 
@@ -172,16 +176,20 @@
     flex-direction: row;
     gap: 30px;
   }
+  input {
+    border: none;
+    outline: none; /* Removes the default focus border */
+  }
   .c_h_child_para_one {
     border-bottom: 1px solid black;
-    & p {
-      margin-right: 12.5rem;
+    & input {
+      margin-right: 5.5rem;
     }
   }
   .c_h_child_para_two {
     border-bottom: 1px solid black;
-    & p {
-      margin-right: 12.5rem;
+    & input {
+      margin-right: 5.5rem;
     }
   }
   .c_header_child_input_two {
@@ -191,14 +199,14 @@
   }
   .c_h_child_input_one {
     border-bottom: 1px solid black;
-    & p {
-      margin-right: 12rem;
+    & input {
+      margin-right: 5.5rem;
     }
   }
   .c_h_child_input_two {
     border-bottom: 1px solid black;
-    & p {
-      margin-right: 12rem;
+    & input {
+      margin-right: 5.5rem;
     }
   }
   & button {

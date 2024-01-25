@@ -36,18 +36,30 @@ function Contact_Header_Part() {
         <div className="contact_header_child_part_two">
           <div className="c_header_child_input_one">
             <div className="c_h_child_para_one">
-              <p>Name</p>
+              <input type="text" id="text" name="text" placeholder="Name" />
             </div>
             <div className="c_h_child_para_two">
-              <p>Email</p>
+              <input type="email" id="email" name="email" placeholder="Email" />
             </div>
           </div>
           <div className="c_header_child_input_two">
             <div className="c_h_child_input_one">
-              <p>Subject</p>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
             </div>
             <div className="c_h_child_input_two">
-              <p>Phone</p>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Phone"
+                required
+              ></input>
             </div>
           </div>
           <p>Hello Iam Intrested in..</p>

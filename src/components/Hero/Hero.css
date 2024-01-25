@@ -36,6 +36,7 @@
 .header_heading button {
   display: flex;
   color: white;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   background-color: #cda274;
@@ -111,6 +112,7 @@
   .header_heading button {
     display: flex;
     color: white;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     background-color: #cda274;

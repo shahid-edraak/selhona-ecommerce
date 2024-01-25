@@ -7,6 +7,7 @@ import Second_Rectangle_Statement from "../components/P_Second_Rectangle_Stateme
 import Main_One from "../components/Main-Design/Main_One";
 import Pages_Second_Footer from "../components/Pages_Second_Footer/Pages_Second_Footer";
 import Footer from "../components/Footer/Footer";
+
 const Pages = () => {
   return (
     <div>

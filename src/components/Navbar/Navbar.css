@@ -125,6 +125,10 @@
     background-color: white;
     color: white;
   }
+  .Navbar_links:hover {
+    color: #c76904;
+    transition: background-color 2s ease; /* Add a smooth transition effect */
+  }
   .img_logo {
     display: flex;
 
@@ -133,6 +137,7 @@
   }
   .img_logo img {
     height: 40px;
+    cursor: pointer;
     padding-bottom: 3px;
   }
   .img_logo h2 {

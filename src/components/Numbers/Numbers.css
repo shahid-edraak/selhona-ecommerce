@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+
+  margin-bottom: 2rem;
   gap: 20px;
   & h1 {
     color: #cda274;
@@ -14,14 +14,79 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 5px;
 }
 
-.line {
-  width: 60px;
+.n_line_one {
   height: 2px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  background-color: #cda274;
+}
+.n_line_two {
+  height: 2px;
+  margin-top: 10px;
+
+  background-color: #cda274;
+}
+.line_three {
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  background-color: #cda274;
+}
+.line_foure {
+  height: 2px;
+  margin-top: 10px;
   background-color: #cda274;
 }
 
+@media only screen and (min-width: 768px) {
+  .num_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+    & h1 {
+      color: #cda274;
+    }
+    .num_child_part {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 90px;
+    }
+    .num_child_second_part {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 90px;
+    }
+    .n_line_one {
+      width: 2px;
+      height: 66px;
+      background-color: #cda274;
+    }
+    .n_line_two {
+      width: 2px;
+      height: 66px;
+    }
+    .line_three {
+      width: 2px;
+      height: 66px;
+      margin-left: 4rem;
+      background-color: #cda274;
+    }
+    .line_foure {
+      width: 2px;
+      height: 66px;
+    }
+  }
+}
 @media only screen and (min-width: 1280px) {
   .num_parent {
     display: flex;
@@ -36,9 +101,24 @@
     }
   }
 
-  .line {
+  .line_one {
     width: 2px;
-    height: 60px;
+    height: 66px;
+    background-color: #cda274;
+  }
+  .n_line_two {
+    width: 2px;
+    height: 66px;
+    background-color: #cda274;
+  }
+  .line_three {
+    width: 2px;
+    height: 66px;
+    background-color: #cda274;
+  }
+  .line_foure {
+    width: 2px;
+    height: 66px;
     background-color: #cda274;
   }
 }

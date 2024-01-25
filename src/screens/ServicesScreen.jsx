@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import S_Header_part from "../components/Services_Header_Part/S_Header_part";
+import First_Service_Header_part from "../components/First_Service_Header_Part/First_Service_Header_Part";
 import Services_Statement_part from "../components/Services_Statement_part/S_Statement_part";
 import S_Small from "../components/Services_Small/S_Small";
 import Rectangle from "../components/Rectangle/Rectangle";
@@ -10,7 +10,7 @@ function ServicesScreen() {
   return (
     <div>
       <Navbar />
-      <S_Header_part />
+      <First_Service_Header_part />
       <Services_Statement_part />
       <S_Small />
       <Services_Design />
