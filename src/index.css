@@ -23,3 +23,9 @@ code {
 button {
   cursor: pointer;
 }
+@media only screen and (max-width: 668px) {
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+}

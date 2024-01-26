@@ -94,10 +94,17 @@
     align-items: center;
     margin-right: 8rem;
   }
+
   .social_logo {
     display: flex;
     gap: 3rem;
     margin-right: 6rem;
+    cursor: pointer;
+  }
+  .footer_child li:hover {
+    color: #c76904;
+    font-weight: bold;
+    transition: 0.5s;
   }
   .footer_child {
     display: flex;

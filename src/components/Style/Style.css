@@ -89,4 +89,12 @@
   /* .next_img img {
     width: 10%;
   } */
+  .bg_color {
+    background: white;
+    transition: 0.4s;
+  }
+  .bg_color:hover {
+    background: #f4f0ec;
+    border-radius: 50px;
+  }
 }
